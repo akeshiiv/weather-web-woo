@@ -21,7 +21,7 @@ code config.py
 ```
 api_key = “YOUR_API_KEY”
 ```
-9. Run app
+9. Move out of env dirctory, then run app!
 ```
 cd ..
 ```
