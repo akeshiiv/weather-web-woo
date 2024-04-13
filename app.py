@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request
 from weather import main as weather_result
-from flask_ngrok2 import run_with_ngrok
-from pyngrok import ngrok
 # basically the same main function is called by using weather_result()
 
 app = Flask(__name__)
@@ -24,6 +22,5 @@ def index():
     return render_template("index.html", data=data)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
 
-ngrok.update()
