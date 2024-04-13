@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/692/649/non_2x/beautiful-clear-blue-sky-in-summer-look-lke-heaven-free-photo.jpg");
+    font-family: sans-serif;
+    background-size: cover;
+  }
+
+.container {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-size: 24px !important;
+    font-weight: 100 !important;
+    margin-bottom: 15px !important; 
+}
+
+h3 {
+    font-weight: 100 !important;
+    font-size: 24px !important;
+}
+
+p{
+    font-size: 32px;
+    font-weight: 600 !important;
+}
+
+input {
+    margin-bottom: 15px !important; 
+    
+}
+
+button {
+    background-color: rgb(53, 53, 53) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 0px !important;
+  }
+  
+button:hover {background-color: #151515 !important;}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Weather Data On Various Cities</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <div class="col-sm-7.5">
+    <h1>What's the weather?</h1>
+    <h2>Enter a city name to find out its current weather conditions!</h2>
+    <form action="/" method="post">
+      <input autocomplete="off" class="form-control" type="text" name="cityName" placeholder="City name">
+      <button class="button">Find</button>
+    </form>
+    <br>
+    {% if data %}
+<h3>Current weather:</h3> 
+<p>{{ data.main }} - {{ data.description }}</p>
+    <img src="https://openweathermap.org/img/wn/{{ data.icon }}@2x.png" alt="weather">
+    Temperature: {{ data.temp }} °C
+
+    {% endif %}
+  </div>
+  
+</div>
+
+{% endblock %}
