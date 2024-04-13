@@ -1,7 +1,9 @@
 body {
     background-image: url("https://static.vecteezy.com/system/resources/previews/003/692/649/non_2x/beautiful-clear-blue-sky-in-summer-look-lke-heaven-free-photo.jpg");
+    background-repeat: no-repeat;
     font-family: sans-serif;
     background-size: cover;
+    background-attachment: fixed;
   }
 
 .container {
@@ -40,7 +42,15 @@ input {
 button {
     background-color: rgb(53, 53, 53) !important;
     color: rgb(255, 255, 255) !important;
-    border: 0px !important;
+    border: 2px !important;
+    border-color: rgb(53, 53, 53) !important;
+    border-radius: 4px !important;
+    padding: 10px 24px !important;
   }
   
 button:hover {background-color: #151515 !important;}
+
+#temp { 
+    font-size: 48px;
+    font-weight: 600 !important;
+}

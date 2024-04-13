@@ -15,13 +15,13 @@
     </form>
     <br>
     {% if data %}
-<h3>Current weather:</h3> 
-<p>{{ data.main }} - {{ data.description }}</p>
+    <h3>Current weather:</h3>
+    <p>{{ data.main }} - {{ data.description }}</p>
     <img src="https://openweathermap.org/img/wn/{{ data.icon }}@2x.png" alt="weather">
-    Temperature: {{ data.temp }} °C
-
+    <label id="temp">{{ data.temp }} °C</label>
+    
     {% endif %}
-  </div>
+    </div>
   
 </div>
 
