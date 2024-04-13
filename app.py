@@ -3,7 +3,6 @@ from weather import main as weather_result
 # basically the same main function is called by using weather_result()
 
 app = Flask(__name__)
-run_with_ngrok(app)
 
 @app.route( "/", methods = ["GET", "POST"])
 def index():
