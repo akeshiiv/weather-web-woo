@@ -1,4 +1,4 @@
-# what's-the-weather
+# weather-web-woo
 ![image](https://github.com/akeshiiv/weather-web-woo/assets/144101290/8375a2de-4db8-406a-8e50-762864e6305a)
 
 ## About
